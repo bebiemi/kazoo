@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazoo – Vos services en toute confiance</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fffef6; color: #333; }
+        header, footer { background-color: #ffe082; padding: 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 2.2em; }
+        .hero { text-align: center; padding: 40px 20px; }
+        .hero img { width: 180px; }
+        .section { padding: 30px 20px; text-align: center; }
+        .cta-button { background-color: #ffa000; color: white; padding: 12px 25px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; margin-top: 20px; }
+        .features { display: flex; flex-wrap: wrap; justify-content: center; background: #fff3e0; padding: 30px; }
+        .feature-box { width: 220px; margin: 15px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 0 10px #ccc; }
+        form { margin-top: 20px; }
+        input, select { width: 80%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+        @media (max-width: 600px) {
+            .features { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kazoo</h1>
+    <p>Vos services à domicile. En confiance, à portée de main.</p>
+</header>
+
+<section class="hero">
+    <img src="kazoo-logo-transparent.png" alt="Kazoo Logo">
+    <h2>Kazoo arrive bientôt !</h2>
+    <p>Réservez, validez, soyez accompagnés. Tous vos services à domicile, dans une seule application.</p>
+    <a href="#form" class="cta-button">Recevoir une alerte à la sortie</a>
+</section>
+
+<section class="features">
+    <div class="feature-box"><strong>Réservation rapide</strong><p>En quelques clics</p></div>
+    <div class="feature-box"><strong>Validation photo</strong><p>Visualisation Avant / Après mission</p></div>
+    <div class="feature-box"><strong>IA + vérification humaine</strong><p>Double sécurité</p></div>
+    <div class="feature-box"><strong>Mode hors-ligne</strong><p>Pour zones à faible connectivité</p></div>
+</section>
+
+<section class="section" id="form">
+    <h2>Inscrivez-vous dès maintenant</h2>
+    <form>
+        <input type="text" name="nom" placeholder="Votre nom, prénom"><br>
+        <input type="email" name="email" placeholder="Votre email"><br>
+        <select name="profil">
+            <option value="">Je suis...</option>
+            <option value="client">Client</option>
+            <option value="intervenant">Intervenant</option>
+        </select><br>
+        <input type="submit" value="Recevoir une alerte" class="cta-button">
+    </form>
+</section>
+
+<footer>
+    Kazoo – Une solution Awana Group - Services | Contact : contact@awanagroup.com<br>
+    © 2025 Kazoo – Tous droits réservés
+</footer>
+
+</body>
+</html>
